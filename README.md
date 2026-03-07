@@ -2,6 +2,11 @@
 
 > A modern, real-time tracking dashboard for live gold and silver commodity prices with interactive historical charting.
 
+<div align="center">
+  <img src="assets/gold_dashboard.png" width="49%" alt="Gold Dashboard">
+  <img src="assets/silver_dashboard.png" width="49%" alt="Silver Dashboard">
+</div>
+
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Language](https://img.shields.io/badge/Python-3.14-yellow.svg)
