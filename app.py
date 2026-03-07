@@ -2,7 +2,7 @@ from flask import Flask, render_template, jsonify, send_from_directory
 import subprocess
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')
 
 # Serve JSON data directly from the root directory
 @app.route('/rates_data.json')
