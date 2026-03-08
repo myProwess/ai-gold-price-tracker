@@ -439,19 +439,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 elSyncStatus.classList.add('text-slate-500');
                 elSyncStatus.textContent = "Syncing...";
 
-                const res = await fetch('/api/sync-data', { method: 'POST' });
-                const result = await res.json();
+                const res = await fetch(`rates_data.json?t=${Date.now()}`);
 
-                if (res.ok && result.status === 'success') {
-                    elSyncStatus.textContent = "Sync successful!";
+                if (res.ok) {
+                    elSyncStatus.textContent = "Data auto-syncs via GitHub Actions";
                     elSyncStatus.classList.remove('text-slate-500', 'text-rose-500');
-                    elSyncStatus.classList.add('text-emerald-500');
+                    elSyncStatus.classList.add('text-indigo-500');
 
                     setTimeout(() => {
                         window.location.reload();
-                    }, 1000);
+                    }, 1500);
                 } else {
-                    throw new Error(result.message || "Unknown error");
+                    throw new Error("Cannot fetch rates_data.json");
                 }
             } catch (error) {
                 console.error("Sync API Error:", error);

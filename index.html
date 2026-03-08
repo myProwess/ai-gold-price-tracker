@@ -9,7 +9,7 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="static/css/styles.css">
 </head>
 
 <body class="gold-theme antialiased selection:bg-yellow-200/50">
@@ -38,9 +38,9 @@
                 </div>
                 <div
                     class="absolute inset-0 flex items-center justify-center space-x-12 md:space-x-24 pointer-events-none mt-2">
-                    <a href="{{ url_for('index') }}"
+                    <a href="index.html"
                         class="nav-link active font-extrabold text-3xl md:text-4xl text-yellow-700 tracking-wider px-6 md:px-12 pointer-events-auto transition-transform hover:scale-105 inline-block">Gold</a>
-                    <a href="{{ url_for('silver') }}"
+                    <a href="silver.html"
                         class="nav-link font-extrabold text-3xl md:text-4xl text-slate-500 hover:text-slate-800 tracking-wider px-6 md:px-12 pointer-events-auto transition-transform hover:scale-105 inline-block">Silver</a>
                 </div>
             </div>
@@ -145,7 +145,7 @@
         </div>
     </main>
 
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <script src="static/js/main.js"></script>
 </body>
 
 </html>
