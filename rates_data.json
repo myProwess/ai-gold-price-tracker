@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-03-08T09:11:57Z",
+    "last_updated": "2026-03-01T09:11:57Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -10,7 +10,7 @@
         "purity": "24K",
         "weight_unit": "1 Gram",
         "price_today_inr": 16418,
-        "price_yesterday_inr": 16418,
+        "price_yesterday_inr": 16000,
         "price_change_inr": 0
       },
       {
