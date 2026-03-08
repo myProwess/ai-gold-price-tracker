@@ -449,17 +449,57 @@ document.addEventListener('DOMContentLoaded', () => {
                         throw new Error("Failed to sync data via local API");
                     }
                 } else {
-                    // If on GitHub Pages or other static hosting, we cannot run Python scripts directly.
-                    // Instead, we just fetch the latest JSON that the GitHub Action has scraped.
-                    res = await fetch(`./rates_data.json?t=${Date.now()}`);
-                    if (res.ok) {
-                        elSyncStatus.textContent = "Fetched latest rates. (Auto-scraped via GitHub Actions)";
+                    // GitHub Pages Environment
+                    // To trigger the scrape script, we must invoke the GitHub Actions API.
+                    const token = prompt("Enter a GitHub Personal Access Token (PAT) with 'repo' scope to manually trigger a data scrape.\n\nNote: If you cancel, we will just fetch the latest automatically scraped data instead.");
+
+                    if (token) {
+                        elSyncStatus.textContent = "Triggering GitHub Action...";
+
+                        // Trigger the workflow dispatch event
+                        const ghRes = await fetch('https://api.github.com/repos/myProwess/ai-gold-price-tracker/actions/workflows/scrape.yml/dispatches', {
+                            method: 'POST',
+                            headers: {
+                                'Accept': 'application/vnd.github.v3+json',
+                                'Authorization': `token ${token}`,
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                ref: 'main'
+                            })
+                        });
+
+                        if (ghRes.ok || ghRes.status === 204) {
+                            elSyncStatus.textContent = "Action Triggered! Scraping data... (This takes about 30 seconds)";
+                            // Since the action takes time to boot up, run, and push to the repo, we simulate waiting.
+                            // A proper implementation would poll the workflow runs API, but for simplicity we wait.
+                            await new Promise(r => setTimeout(r, 35000));
+
+                            // Re-fetch the newly generated JSON
+                            res = await fetch(`./rates_data.json?t=${Date.now()}`);
+                            if (res.ok) {
+                                elSyncStatus.textContent = "Data successfully scraped and synced!";
+                            } else {
+                                throw new Error("Action completed but couldn't fetch new data.");
+                            }
+                        } else {
+                            const errText = await ghRes.text();
+                            throw new Error(`GitHub API Error: ${ghRes.status} - ${errText}`);
+                        }
+
                     } else {
-                        throw new Error("Cannot fetch latest rates data");
+                        // User cancelled or provided no token. Fallback to just re-fetching existing data.
+                        elSyncStatus.textContent = "Fetching latest cached data...";
+                        res = await fetch(`./rates_data.json?t=${Date.now()}`);
+                        if (res.ok) {
+                            elSyncStatus.textContent = "Fetched latest rates. (Auto-scraped via GitHub Actions)";
+                        } else {
+                            throw new Error("Cannot fetch latest rates data");
+                        }
                     }
                 }
 
-                if (res.ok) {
+                if (res && res.ok) {
                     elSyncStatus.classList.remove('text-slate-500', 'text-rose-500');
                     elSyncStatus.classList.add('text-indigo-500');
 
