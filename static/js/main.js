@@ -439,10 +439,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 elSyncStatus.classList.add('text-slate-500');
                 elSyncStatus.textContent = "Syncing...";
 
-                const res = await fetch(`rates_data.json?t=${Date.now()}`);
+                const res = await fetch('/api/sync-data', { method: 'POST' });
 
                 if (res.ok) {
-                    elSyncStatus.textContent = "Data auto-syncs via GitHub Actions";
+                    elSyncStatus.textContent = "Data successfully synchronized.";
                     elSyncStatus.classList.remove('text-slate-500', 'text-rose-500');
                     elSyncStatus.classList.add('text-indigo-500');
 
@@ -450,7 +450,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         window.location.reload();
                     }, 1500);
                 } else {
-                    throw new Error("Cannot fetch rates_data.json");
+                    throw new Error("Failed to sync data");
                 }
             } catch (error) {
                 console.error("Sync API Error:", error);
