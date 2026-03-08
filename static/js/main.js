@@ -439,18 +439,33 @@ document.addEventListener('DOMContentLoaded', () => {
                 elSyncStatus.classList.add('text-slate-500');
                 elSyncStatus.textContent = "Syncing...";
 
-                const res = await fetch('/api/sync-data', { method: 'POST' });
+                let res;
+                // If running locally on Flask, trigger the backend python scraper script
+                if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                    res = await fetch('/api/sync-data', { method: 'POST' });
+                    if (res.ok) {
+                        elSyncStatus.textContent = "Data successfully synchronized.";
+                    } else {
+                        throw new Error("Failed to sync data via local API");
+                    }
+                } else {
+                    // If on GitHub Pages or other static hosting, we cannot run Python scripts directly.
+                    // Instead, we just fetch the latest JSON that the GitHub Action has scraped.
+                    res = await fetch(`rates_data.json?t=${Date.now()}`);
+                    if (res.ok) {
+                        elSyncStatus.textContent = "Fetched latest rates. (Auto-scraped via GitHub Actions)";
+                    } else {
+                        throw new Error("Cannot fetch latest rates data");
+                    }
+                }
 
                 if (res.ok) {
-                    elSyncStatus.textContent = "Data successfully synchronized.";
                     elSyncStatus.classList.remove('text-slate-500', 'text-rose-500');
                     elSyncStatus.classList.add('text-indigo-500');
 
                     setTimeout(() => {
                         window.location.reload();
                     }, 1500);
-                } else {
-                    throw new Error("Failed to sync data");
                 }
             } catch (error) {
                 console.error("Sync API Error:", error);
