@@ -2,6 +2,8 @@
 
 > A modern, real-time tracking dashboard for live gold and silver commodity prices with interactive historical charting.
 
+**[🌐 Live Demo On GitHub Pages](https://myprowess.github.io/ai-gold-price-tracker/)**
+
 <div align="center">
   <img src="assets/gold_dashboard.png" width="49%" alt="Gold Dashboard">
   <img src="assets/silver_dashboard.png" width="49%" alt="Silver Dashboard">
