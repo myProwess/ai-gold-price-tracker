@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
 
 
-            const response = await fetch(`rates_data.json?t=${Date.now()}`);
+            const response = await fetch(`./rates_data.json?t=${Date.now()}`);
             if (!response.ok) throw new Error('Failed to fetch rates_data.json');
 
             const fullData = await response.json();
@@ -451,7 +451,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else {
                     // If on GitHub Pages or other static hosting, we cannot run Python scripts directly.
                     // Instead, we just fetch the latest JSON that the GitHub Action has scraped.
-                    res = await fetch(`rates_data.json?t=${Date.now()}`);
+                    res = await fetch(`./rates_data.json?t=${Date.now()}`);
                     if (res.ok) {
                         elSyncStatus.textContent = "Fetched latest rates. (Auto-scraped via GitHub Actions)";
                     } else {
