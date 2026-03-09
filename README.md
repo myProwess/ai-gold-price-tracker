@@ -1,6 +1,6 @@
 # Indian Gold Price Tracker 🪙🥇
 
-> A modern, real-time tracking dashboard for live gold and silver commodity prices with interactive historical charting.
+> A modern, real-time tracking dashboard for live gold and silver commodity prices with interactive historical charting. Daily It scrapes the prices from "https://www.goodreturns.in/gold-rates/trichy.html" and update it to json file and after that our application will load with the latest data along with historical data.
 
 **[🌐 Live Demo On GitHub Pages](https://myprowess.github.io/ai-gold-price-tracker/)**
 
