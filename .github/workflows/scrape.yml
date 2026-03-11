@@ -2,7 +2,7 @@ name: Scrape Gold & Silver Rates
 
 on:
   schedule:
-    - cron: '0 */12 * * *' # Run every 6 hours
+    - cron: '30 4,10 * * *'
   workflow_dispatch: # Allow manual trigger
 
 jobs:

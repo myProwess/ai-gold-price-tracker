@@ -4,8 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live Silver Rates Dashboard</title>
-    <meta name="description" content="View live, interactive silver prices for various weights.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Lakshmi PriceMart">
+    <title>Live Silver Rates Dashboard | Lakshmi PriceMart</title>
+    <meta name="description" content="View live, interactive silver prices for various weights in India. Updated in real-time.">
+    <meta name="keywords" content="silver rates, live silver price, 1kg silver, 1g silver, silver price today, Lakshmi PriceMart">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://example.com/silver">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/silver">
+    <meta property="og:title" content="Live Silver Rates Dashboard | Lakshmi PriceMart">
+    <meta property="og:description" content="View live, interactive silver prices for various weights.">
+    <meta property="og:image" content="https://example.com/assets/silver-og.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://example.com/silver">
+    <meta name="twitter:title" content="Live Silver Rates Dashboard | Lakshmi PriceMart">
+    <meta name="twitter:description" content="View live, interactive silver prices for various weights.">
+    <meta name="twitter:image" content="https://example.com/assets/silver-og.png">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Lakshmi PriceMart Silver Rates",
+      "url": "https://example.com/silver",
+      "description": "Live silver pricing dashboard."
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How often are the silver prices updated?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Silver prices are updated in real-time tracking the latest open market rates."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Which silver weights are displayed?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We provide pricing for 1 kilogram (1Kg) and 1 gram (1g) silver measurements."
+        }
+      }]
+    }
+    </script>
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -20,33 +73,52 @@
 
     <nav class="w-full glass-panel border-b border-t-0 border-x-0 !rounded-none z-10 sticky top-0">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-            <div class="flex items-center justify-between h-20 relative w-full">
-                <div class="flex items-center gap-3 z-10">
+            <div class="flex flex-col sm:flex-row items-center justify-between h-auto sm:h-20 py-4 sm:py-0 relative w-full gap-4">
+                <div class="flex items-center gap-2 md:gap-3 z-10 shrink-0">
                     <div
-                        class="w-10 h-10 rounded-full bg-gradient-to-br from-slate-200 to-slate-400 flex items-center justify-center shadow-[0_0_15px_rgba(148,163,184,0.4)]">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-yellow-900" fill="none"
+                        class="w-8 h-8 md:w-10 md:h-10 rounded-full bg-gradient-to-br from-slate-200 to-slate-400 flex items-center justify-center shadow-[0_0_15px_rgba(148,163,184,0.4)]">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 md:h-6 md:w-6 text-yellow-900" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M9 8h6m-5 0a3 3 0 110 6H9l3 3m-3-6h6m6 1a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                     </div>
                     <h1
-                        class="text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-slate-600 to-slate-800">
-                        Lakshmi<span class="font-light text-slate-500">PriceMart</span>
+                        class="text-lg md:text-2xl font-bold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-slate-600 to-slate-800">
+                        Lakshmi<span class="font-light text-slate-500 hidden sm:inline">PriceMart</span><span class="font-light text-slate-500 sm:hidden">PM</span>
                     </h1>
                 </div>
+                <!-- Navigation links (Centered on all mobile/desktop) -->
                 <div
-                    class="absolute inset-0 flex items-center justify-center space-x-12 md:space-x-24 pointer-events-none mt-2">
+                    class="flex items-center justify-center space-x-8 sm:space-x-12 md:space-x-24 z-10 sm:absolute sm:inset-0 pointer-events-none mt-1 sm:mt-2">
                     <a href="index.html"
-                        class="nav-link font-extrabold text-3xl md:text-4xl text-slate-500 hover:text-slate-800 tracking-wider px-6 md:px-12 pointer-events-auto transition-transform hover:scale-105 inline-block">Gold</a>
+                        class="nav-link font-extrabold text-2xl sm:text-3xl md:text-4xl text-slate-500 hover:text-slate-800 tracking-wider px-4 sm:px-12 pointer-events-auto transition-transform hover:scale-105 inline-block">Gold</a>
                     <a href="silver.html"
-                        class="nav-link active font-extrabold text-3xl md:text-4xl text-slate-700 tracking-wider px-6 md:px-12 pointer-events-auto transition-transform hover:scale-105 inline-block">Silver</a>
+                        class="nav-link active font-extrabold text-2xl sm:text-3xl md:text-4xl text-slate-700 tracking-wider px-4 sm:px-12 pointer-events-auto transition-transform hover:scale-105 inline-block">Silver</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 w-full">
+        <!-- Breadcrumb Navigation -->
+        <nav class="flex mb-6 text-sm text-slate-500" aria-label="Breadcrumb">
+            <ol class="inline-flex items-center space-x-1 md:space-x-3">
+                <li class="inline-flex items-center">
+                    <a href="index.html" class="inline-flex items-center hover:text-slate-800 transition-colors">
+                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z"></path></svg>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <div class="flex items-center">
+                        <svg class="w-6 h-6 text-slate-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
+                        <span class="ml-1 text-slate-800 font-medium md:ml-2">Live Silver Rates</span>
+                    </div>
+                </li>
+            </ol>
+        </nav>
+
         <!-- New Location and Specialized Updating Header -->
         <header class="mb-12 flex flex-col md:flex-row md:items-end justify-between gap-6 w-full">
             <div>
