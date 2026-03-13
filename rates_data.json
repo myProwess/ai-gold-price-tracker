@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-03-12T11:04:53Z",
+    "last_updated": "2026-03-13T05:30:50Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -9,86 +9,86 @@
       {
         "purity": "24K",
         "weight_unit": "1 Gram",
-        "price_today_inr": 16331,
-        "price_yesterday_inr": 16495,
-        "price_change_inr": -164
+        "price_today_inr": 16256,
+        "price_yesterday_inr": 16331,
+        "price_change_inr": -75
       },
       {
         "purity": "24K",
         "weight_unit": "8 Gram",
-        "price_today_inr": 130648,
-        "price_yesterday_inr": 131960,
-        "price_change_inr": -1312
+        "price_today_inr": 130048,
+        "price_yesterday_inr": 130648,
+        "price_change_inr": -600
       },
       {
         "purity": "24K",
         "weight_unit": "10 Gram",
-        "price_today_inr": 163310,
-        "price_yesterday_inr": 164950,
-        "price_change_inr": -1640
+        "price_today_inr": 162560,
+        "price_yesterday_inr": 163310,
+        "price_change_inr": -750
       },
       {
         "purity": "24K",
         "weight_unit": "100 Gram",
-        "price_today_inr": 1633100,
-        "price_yesterday_inr": 1649500,
-        "price_change_inr": -16400
+        "price_today_inr": 1625600,
+        "price_yesterday_inr": 1633100,
+        "price_change_inr": -7500
       },
       {
         "purity": "22K",
         "weight_unit": "1 Gram",
-        "price_today_inr": 14970,
-        "price_yesterday_inr": 15120,
+        "price_today_inr": 14900,
+        "price_yesterday_inr": 14970,
+        "price_change_inr": -70
+      },
+      {
+        "purity": "22K",
+        "weight_unit": "8 Gram",
+        "price_today_inr": 119200,
+        "price_yesterday_inr": 119760,
+        "price_change_inr": -560
+      },
+      {
+        "purity": "22K",
+        "weight_unit": "10 Gram",
+        "price_today_inr": 149000,
+        "price_yesterday_inr": 149700,
+        "price_change_inr": -700
+      },
+      {
+        "purity": "22K",
+        "weight_unit": "100 Gram",
+        "price_today_inr": 1490000,
+        "price_yesterday_inr": 1497000,
+        "price_change_inr": -7000
+      },
+      {
+        "purity": "18K",
+        "weight_unit": "1 Gram",
+        "price_today_inr": 12550,
+        "price_yesterday_inr": 12700,
         "price_change_inr": -150
       },
       {
-        "purity": "22K",
+        "purity": "18K",
         "weight_unit": "8 Gram",
-        "price_today_inr": 119760,
-        "price_yesterday_inr": 120960,
+        "price_today_inr": 100400,
+        "price_yesterday_inr": 101600,
         "price_change_inr": -1200
       },
       {
-        "purity": "22K",
+        "purity": "18K",
         "weight_unit": "10 Gram",
-        "price_today_inr": 149700,
-        "price_yesterday_inr": 151200,
+        "price_today_inr": 125500,
+        "price_yesterday_inr": 127000,
         "price_change_inr": -1500
       },
       {
-        "purity": "22K",
+        "purity": "18K",
         "weight_unit": "100 Gram",
-        "price_today_inr": 1497000,
-        "price_yesterday_inr": 1512000,
+        "price_today_inr": 1255000,
+        "price_yesterday_inr": 1270000,
         "price_change_inr": -15000
-      },
-      {
-        "purity": "18K",
-        "weight_unit": "1 Gram",
-        "price_today_inr": 12700,
-        "price_yesterday_inr": 12950,
-        "price_change_inr": -250
-      },
-      {
-        "purity": "18K",
-        "weight_unit": "8 Gram",
-        "price_today_inr": 101600,
-        "price_yesterday_inr": 103600,
-        "price_change_inr": -2000
-      },
-      {
-        "purity": "18K",
-        "weight_unit": "10 Gram",
-        "price_today_inr": 127000,
-        "price_yesterday_inr": 129500,
-        "price_change_inr": -2500
-      },
-      {
-        "purity": "18K",
-        "weight_unit": "100 Gram",
-        "price_today_inr": 1270000,
-        "price_yesterday_inr": 1295000,
-        "price_change_inr": -25000
       }
     ],
     "silver_rates": [
@@ -96,39 +96,44 @@
         "metal": "Silver",
         "weight_unit": "1 Gram",
         "price_today_inr": 290,
-        "price_yesterday_inr": 300,
-        "price_change_inr": -10
+        "price_yesterday_inr": 290,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "8 Gram",
         "price_today_inr": 2320,
-        "price_yesterday_inr": 2400,
-        "price_change_inr": -80
+        "price_yesterday_inr": 2320,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "10 Gram",
         "price_today_inr": 2900,
-        "price_yesterday_inr": 3000,
-        "price_change_inr": -100
+        "price_yesterday_inr": 2900,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "100 Gram",
         "price_today_inr": 29000,
-        "price_yesterday_inr": 30000,
-        "price_change_inr": -1000
+        "price_yesterday_inr": 29000,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "1 Kg",
         "price_today_inr": 290000,
-        "price_yesterday_inr": 300000,
-        "price_change_inr": -10000
+        "price_yesterday_inr": 290000,
+        "price_change_inr": 0
       }
     ],
     "gold_history": [
+      {
+        "date": "Mar 13, 2026",
+        "price_24k": 16256,
+        "price_22k": 14900
+      },
       {
         "date": "Mar 12, 2026",
         "price_24k": 16331,
@@ -173,14 +178,13 @@
         "date": "Mar 04, 2026",
         "price_24k": 16582,
         "price_22k": 15200
-      },
-      {
-        "date": "Mar 03, 2026",
-        "price_24k": 16871,
-        "price_22k": 15465
       }
     ],
     "silver_history": [
+      {
+        "date": "Mar 13, 2026",
+        "price_1kg": 290000
+      },
       {
         "date": "Mar 12, 2026",
         "price_1kg": 290000
@@ -216,10 +220,6 @@
       {
         "date": "Mar 04, 2026",
         "price_1kg": 295000
-      },
-      {
-        "date": "Mar 03, 2026",
-        "price_1kg": 315000
       }
     ]
   }
