@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-03-24T05:41:07Z",
+    "last_updated": "2026-03-24T11:12:50Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -9,30 +9,30 @@
       {
         "purity": "24K",
         "weight_unit": "1 Gram",
-        "price_today_inr": 14182,
+        "price_today_inr": 14191,
         "price_yesterday_inr": 14553,
-        "price_change_inr": -371
+        "price_change_inr": -362
       },
       {
         "purity": "24K",
         "weight_unit": "8 Gram",
-        "price_today_inr": 113456,
+        "price_today_inr": 113528,
         "price_yesterday_inr": 116424,
-        "price_change_inr": -2968
+        "price_change_inr": -2896
       },
       {
         "purity": "24K",
         "weight_unit": "10 Gram",
-        "price_today_inr": 141820,
+        "price_today_inr": 141910,
         "price_yesterday_inr": 145530,
-        "price_change_inr": -3710
+        "price_change_inr": -3620
       },
       {
         "purity": "24K",
         "weight_unit": "100 Gram",
-        "price_today_inr": 1418200,
+        "price_today_inr": 1419100,
         "price_yesterday_inr": 1455300,
-        "price_change_inr": -37100
+        "price_change_inr": -36200
       },
       {
         "purity": "22K",
@@ -131,7 +131,7 @@
     "gold_history": [
       {
         "date": "Mar 24, 2026",
-        "price_24k": 14182,
+        "price_24k": 14191,
         "price_22k": 13000
       },
       {
