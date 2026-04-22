@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-04-22T06:17:33Z",
+    "last_updated": "2026-04-22T11:35:54Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -65,30 +65,30 @@
       {
         "purity": "18K",
         "weight_unit": "1 Gram",
-        "price_today_inr": 11804,
+        "price_today_inr": 11880,
         "price_yesterday_inr": 11855,
-        "price_change_inr": -51
+        "price_change_inr": 25
       },
       {
         "purity": "18K",
         "weight_unit": "8 Gram",
-        "price_today_inr": 94432,
+        "price_today_inr": 95040,
         "price_yesterday_inr": 94840,
-        "price_change_inr": -408
+        "price_change_inr": 200
       },
       {
         "purity": "18K",
         "weight_unit": "10 Gram",
-        "price_today_inr": 118040,
+        "price_today_inr": 118800,
         "price_yesterday_inr": 118550,
-        "price_change_inr": -510
+        "price_change_inr": 250
       },
       {
         "purity": "18K",
         "weight_unit": "100 Gram",
-        "price_today_inr": 1180400,
+        "price_today_inr": 1188000,
         "price_yesterday_inr": 1185500,
-        "price_change_inr": -5100
+        "price_change_inr": 2500
       }
     ],
     "silver_rates": [
