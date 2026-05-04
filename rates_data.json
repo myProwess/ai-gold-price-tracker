@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-05-03T11:11:00Z",
+    "last_updated": "2026-05-04T07:30:21Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -130,6 +130,11 @@
     ],
     "gold_history": [
       {
+        "date": "May 04, 2026",
+        "price_24k": 15273,
+        "price_22k": 14000
+      },
+      {
         "date": "May 03, 2026",
         "price_24k": 15273,
         "price_22k": 14000
@@ -173,14 +178,13 @@
         "date": "Apr 25, 2026",
         "price_24k": 15491,
         "price_22k": 14200
-      },
-      {
-        "date": "Apr 24, 2026",
-        "price_24k": 15382,
-        "price_22k": 14100
       }
     ],
     "silver_history": [
+      {
+        "date": "May 04, 2026",
+        "price_1kg": 270000
+      },
       {
         "date": "May 03, 2026",
         "price_1kg": 270000
@@ -216,10 +220,6 @@
       {
         "date": "Apr 25, 2026",
         "price_1kg": 270000
-      },
-      {
-        "date": "Apr 24, 2026",
-        "price_1kg": 265000
       }
     ]
   }
