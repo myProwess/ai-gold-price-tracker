@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-05-12T12:22:49Z",
+    "last_updated": "2026-05-13T07:35:23Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -9,126 +9,131 @@
       {
         "purity": "24K",
         "weight_unit": "1 Gram",
-        "price_today_inr": 15633,
-        "price_yesterday_inr": 15382,
-        "price_change_inr": 251
+        "price_today_inr": 16800,
+        "price_yesterday_inr": 15633,
+        "price_change_inr": 1167
       },
       {
         "purity": "24K",
         "weight_unit": "8 Gram",
-        "price_today_inr": 125064,
-        "price_yesterday_inr": 123056,
-        "price_change_inr": 2008
+        "price_today_inr": 134400,
+        "price_yesterday_inr": 125064,
+        "price_change_inr": 9336
       },
       {
         "purity": "24K",
         "weight_unit": "10 Gram",
-        "price_today_inr": 156330,
-        "price_yesterday_inr": 153820,
-        "price_change_inr": 2510
+        "price_today_inr": 168000,
+        "price_yesterday_inr": 156330,
+        "price_change_inr": 11670
       },
       {
         "purity": "24K",
         "weight_unit": "100 Gram",
-        "price_today_inr": 1563300,
-        "price_yesterday_inr": 1538200,
-        "price_change_inr": 25100
+        "price_today_inr": 1680000,
+        "price_yesterday_inr": 1563300,
+        "price_change_inr": 116700
       },
       {
         "purity": "22K",
         "weight_unit": "1 Gram",
-        "price_today_inr": 14330,
-        "price_yesterday_inr": 14100,
-        "price_change_inr": 230
+        "price_today_inr": 15400,
+        "price_yesterday_inr": 14330,
+        "price_change_inr": 1070
       },
       {
         "purity": "22K",
         "weight_unit": "8 Gram",
-        "price_today_inr": 114640,
-        "price_yesterday_inr": 112800,
-        "price_change_inr": 1840
+        "price_today_inr": 123200,
+        "price_yesterday_inr": 114640,
+        "price_change_inr": 8560
       },
       {
         "purity": "22K",
         "weight_unit": "10 Gram",
-        "price_today_inr": 143300,
-        "price_yesterday_inr": 141000,
-        "price_change_inr": 2300
+        "price_today_inr": 154000,
+        "price_yesterday_inr": 143300,
+        "price_change_inr": 10700
       },
       {
         "purity": "22K",
         "weight_unit": "100 Gram",
-        "price_today_inr": 1433000,
-        "price_yesterday_inr": 1410000,
-        "price_change_inr": 23000
+        "price_today_inr": 1540000,
+        "price_yesterday_inr": 1433000,
+        "price_change_inr": 107000
       },
       {
         "purity": "18K",
         "weight_unit": "1 Gram",
-        "price_today_inr": 11950,
-        "price_yesterday_inr": 11770,
-        "price_change_inr": 180
+        "price_today_inr": 12860,
+        "price_yesterday_inr": 11950,
+        "price_change_inr": 910
       },
       {
         "purity": "18K",
         "weight_unit": "8 Gram",
-        "price_today_inr": 95600,
-        "price_yesterday_inr": 94160,
-        "price_change_inr": 1440
+        "price_today_inr": 102880,
+        "price_yesterday_inr": 95600,
+        "price_change_inr": 7280
       },
       {
         "purity": "18K",
         "weight_unit": "10 Gram",
-        "price_today_inr": 119500,
-        "price_yesterday_inr": 117700,
-        "price_change_inr": 1800
+        "price_today_inr": 128600,
+        "price_yesterday_inr": 119500,
+        "price_change_inr": 9100
       },
       {
         "purity": "18K",
         "weight_unit": "100 Gram",
-        "price_today_inr": 1195000,
-        "price_yesterday_inr": 1177000,
-        "price_change_inr": 18000
+        "price_today_inr": 1286000,
+        "price_yesterday_inr": 1195000,
+        "price_change_inr": 91000
       }
     ],
     "silver_rates": [
       {
         "metal": "Silver",
         "weight_unit": "1 Gram",
-        "price_today_inr": 300,
-        "price_yesterday_inr": 285,
-        "price_change_inr": 15
+        "price_today_inr": 330,
+        "price_yesterday_inr": 300,
+        "price_change_inr": 30
       },
       {
         "metal": "Silver",
         "weight_unit": "8 Gram",
-        "price_today_inr": 2400,
-        "price_yesterday_inr": 2280,
-        "price_change_inr": 120
+        "price_today_inr": 2640,
+        "price_yesterday_inr": 2400,
+        "price_change_inr": 240
       },
       {
         "metal": "Silver",
         "weight_unit": "10 Gram",
-        "price_today_inr": 3000,
-        "price_yesterday_inr": 2850,
-        "price_change_inr": 150
+        "price_today_inr": 3300,
+        "price_yesterday_inr": 3000,
+        "price_change_inr": 300
       },
       {
         "metal": "Silver",
         "weight_unit": "100 Gram",
-        "price_today_inr": 30000,
-        "price_yesterday_inr": 28500,
-        "price_change_inr": 1500
+        "price_today_inr": 33000,
+        "price_yesterday_inr": 30000,
+        "price_change_inr": 3000
       },
       {
         "metal": "Silver",
         "weight_unit": "1 Kg",
-        "price_today_inr": 300000,
-        "price_yesterday_inr": 285000,
-        "price_change_inr": 15000
+        "price_today_inr": 330000,
+        "price_yesterday_inr": 300000,
+        "price_change_inr": 30000
       }
     ],
     "gold_history": [
+      {
+        "date": "May 13, 2026",
+        "price_24k": 16800,
+        "price_22k": 15400
+      },
       {
         "date": "May 12, 2026",
         "price_24k": 15633,
@@ -173,14 +178,13 @@
         "date": "May 04, 2026",
         "price_24k": 15273,
         "price_22k": 14000
-      },
-      {
-        "date": "May 03, 2026",
-        "price_24k": 15273,
-        "price_22k": 14000
       }
     ],
     "silver_history": [
+      {
+        "date": "May 13, 2026",
+        "price_1kg": 330000
+      },
       {
         "date": "May 12, 2026",
         "price_1kg": 300000
@@ -215,10 +219,6 @@
       },
       {
         "date": "May 04, 2026",
-        "price_1kg": 270000
-      },
-      {
-        "date": "May 03, 2026",
         "price_1kg": 270000
       }
     ]
