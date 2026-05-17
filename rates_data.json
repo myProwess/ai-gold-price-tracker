@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-05-16T11:29:56Z",
+    "last_updated": "2026-05-17T07:20:42Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -10,57 +10,57 @@
         "purity": "24K",
         "weight_unit": "1 Gram",
         "price_today_inr": 16091,
-        "price_yesterday_inr": 16108,
-        "price_change_inr": -17
+        "price_yesterday_inr": 16091,
+        "price_change_inr": 0
       },
       {
         "purity": "24K",
         "weight_unit": "8 Gram",
         "price_today_inr": 128728,
-        "price_yesterday_inr": 128864,
-        "price_change_inr": -136
+        "price_yesterday_inr": 128728,
+        "price_change_inr": 0
       },
       {
         "purity": "24K",
         "weight_unit": "10 Gram",
         "price_today_inr": 160910,
-        "price_yesterday_inr": 161080,
-        "price_change_inr": -170
+        "price_yesterday_inr": 160910,
+        "price_change_inr": 0
       },
       {
         "purity": "24K",
         "weight_unit": "100 Gram",
         "price_today_inr": 1609100,
-        "price_yesterday_inr": 1610800,
-        "price_change_inr": -1700
+        "price_yesterday_inr": 1609100,
+        "price_change_inr": 0
       },
       {
         "purity": "22K",
         "weight_unit": "1 Gram",
         "price_today_inr": 14750,
-        "price_yesterday_inr": 14765,
-        "price_change_inr": -15
+        "price_yesterday_inr": 14750,
+        "price_change_inr": 0
       },
       {
         "purity": "22K",
         "weight_unit": "8 Gram",
         "price_today_inr": 118000,
-        "price_yesterday_inr": 118120,
-        "price_change_inr": -120
+        "price_yesterday_inr": 118000,
+        "price_change_inr": 0
       },
       {
         "purity": "22K",
         "weight_unit": "10 Gram",
         "price_today_inr": 147500,
-        "price_yesterday_inr": 147650,
-        "price_change_inr": -150
+        "price_yesterday_inr": 147500,
+        "price_change_inr": 0
       },
       {
         "purity": "22K",
         "weight_unit": "100 Gram",
         "price_today_inr": 1475000,
-        "price_yesterday_inr": 1476500,
-        "price_change_inr": -1500
+        "price_yesterday_inr": 1475000,
+        "price_change_inr": 0
       },
       {
         "purity": "18K",
@@ -96,39 +96,44 @@
         "metal": "Silver",
         "weight_unit": "1 Gram",
         "price_today_inr": 290,
-        "price_yesterday_inr": 305,
-        "price_change_inr": -15
+        "price_yesterday_inr": 290,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "8 Gram",
         "price_today_inr": 2320,
-        "price_yesterday_inr": 2440,
-        "price_change_inr": -120
+        "price_yesterday_inr": 2320,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "10 Gram",
         "price_today_inr": 2900,
-        "price_yesterday_inr": 3050,
-        "price_change_inr": -150
+        "price_yesterday_inr": 2900,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "100 Gram",
         "price_today_inr": 29000,
-        "price_yesterday_inr": 30500,
-        "price_change_inr": -1500
+        "price_yesterday_inr": 29000,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "1 Kg",
         "price_today_inr": 290000,
-        "price_yesterday_inr": 305000,
-        "price_change_inr": -15000
+        "price_yesterday_inr": 290000,
+        "price_change_inr": 0
       }
     ],
     "gold_history": [
+      {
+        "date": "May 17, 2026",
+        "price_24k": 16091,
+        "price_22k": 14750
+      },
       {
         "date": "May 16, 2026",
         "price_24k": 16091,
@@ -173,14 +178,13 @@
         "date": "May 08, 2026",
         "price_24k": 15437,
         "price_22k": 14150
-      },
-      {
-        "date": "May 07, 2026",
-        "price_24k": 15383,
-        "price_22k": 14101
       }
     ],
     "silver_history": [
+      {
+        "date": "May 17, 2026",
+        "price_1kg": 290000
+      },
       {
         "date": "May 16, 2026",
         "price_1kg": 290000
@@ -216,10 +220,6 @@
       {
         "date": "May 08, 2026",
         "price_1kg": 280000
-      },
-      {
-        "date": "May 07, 2026",
-        "price_1kg": 275000
       }
     ]
   }
