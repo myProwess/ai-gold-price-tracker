@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-05-17T11:36:38Z",
+    "last_updated": "2026-05-18T08:30:07Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -95,40 +95,45 @@
       {
         "metal": "Silver",
         "weight_unit": "1 Gram",
-        "price_today_inr": 290,
+        "price_today_inr": 300,
         "price_yesterday_inr": 290,
-        "price_change_inr": 0
+        "price_change_inr": 10
       },
       {
         "metal": "Silver",
         "weight_unit": "8 Gram",
-        "price_today_inr": 2320,
+        "price_today_inr": 2400,
         "price_yesterday_inr": 2320,
-        "price_change_inr": 0
+        "price_change_inr": 80
       },
       {
         "metal": "Silver",
         "weight_unit": "10 Gram",
-        "price_today_inr": 2900,
+        "price_today_inr": 3000,
         "price_yesterday_inr": 2900,
-        "price_change_inr": 0
+        "price_change_inr": 100
       },
       {
         "metal": "Silver",
         "weight_unit": "100 Gram",
-        "price_today_inr": 29000,
+        "price_today_inr": 30000,
         "price_yesterday_inr": 29000,
-        "price_change_inr": 0
+        "price_change_inr": 1000
       },
       {
         "metal": "Silver",
         "weight_unit": "1 Kg",
-        "price_today_inr": 290000,
+        "price_today_inr": 300000,
         "price_yesterday_inr": 290000,
-        "price_change_inr": 0
+        "price_change_inr": 10000
       }
     ],
     "gold_history": [
+      {
+        "date": "May 18, 2026",
+        "price_24k": 16091,
+        "price_22k": 14750
+      },
       {
         "date": "May 17, 2026",
         "price_24k": 16091,
@@ -173,14 +178,13 @@
         "date": "May 09, 2026",
         "price_24k": 15437,
         "price_22k": 14150
-      },
-      {
-        "date": "May 08, 2026",
-        "price_24k": 15437,
-        "price_22k": 14150
       }
     ],
     "silver_history": [
+      {
+        "date": "May 18, 2026",
+        "price_1kg": 300000
+      },
       {
         "date": "May 17, 2026",
         "price_1kg": 290000
@@ -215,10 +219,6 @@
       },
       {
         "date": "May 09, 2026",
-        "price_1kg": 280000
-      },
-      {
-        "date": "May 08, 2026",
         "price_1kg": 280000
       }
     ]
