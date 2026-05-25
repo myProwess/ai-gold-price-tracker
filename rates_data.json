@@ -1,96 +1,11 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-05-25T08:44:01Z",
+    "last_updated": "2026-05-25T13:44:25Z",
     "source": "goodreturns.in"
   },
   "datasource": {
-    "gold_rates": [
-      {
-        "purity": "24K",
-        "weight_unit": "1 Gram",
-        "price_today_inr": 16124,
-        "price_yesterday_inr": 16069,
-        "price_change_inr": 55
-      },
-      {
-        "purity": "24K",
-        "weight_unit": "8 Gram",
-        "price_today_inr": 128992,
-        "price_yesterday_inr": 128552,
-        "price_change_inr": 440
-      },
-      {
-        "purity": "24K",
-        "weight_unit": "10 Gram",
-        "price_today_inr": 161240,
-        "price_yesterday_inr": 160690,
-        "price_change_inr": 550
-      },
-      {
-        "purity": "24K",
-        "weight_unit": "100 Gram",
-        "price_today_inr": 1612400,
-        "price_yesterday_inr": 1606900,
-        "price_change_inr": 5500
-      },
-      {
-        "purity": "22K",
-        "weight_unit": "1 Gram",
-        "price_today_inr": 14780,
-        "price_yesterday_inr": 14730,
-        "price_change_inr": 50
-      },
-      {
-        "purity": "22K",
-        "weight_unit": "8 Gram",
-        "price_today_inr": 118240,
-        "price_yesterday_inr": 117840,
-        "price_change_inr": 400
-      },
-      {
-        "purity": "22K",
-        "weight_unit": "10 Gram",
-        "price_today_inr": 147800,
-        "price_yesterday_inr": 147300,
-        "price_change_inr": 500
-      },
-      {
-        "purity": "22K",
-        "weight_unit": "100 Gram",
-        "price_today_inr": 1478000,
-        "price_yesterday_inr": 1473000,
-        "price_change_inr": 5000
-      },
-      {
-        "purity": "18K",
-        "weight_unit": "1 Gram",
-        "price_today_inr": 12400,
-        "price_yesterday_inr": 12360,
-        "price_change_inr": 40
-      },
-      {
-        "purity": "18K",
-        "weight_unit": "8 Gram",
-        "price_today_inr": 99200,
-        "price_yesterday_inr": 98880,
-        "price_change_inr": 320
-      },
-      {
-        "purity": "18K",
-        "weight_unit": "10 Gram",
-        "price_today_inr": 124000,
-        "price_yesterday_inr": 123600,
-        "price_change_inr": 400
-      },
-      {
-        "purity": "18K",
-        "weight_unit": "100 Gram",
-        "price_today_inr": 1240000,
-        "price_yesterday_inr": 1236000,
-        "price_change_inr": 4000
-      }
-    ],
+    "gold_rates": [],
     "silver_rates": [
       {
         "metal": "Silver",
@@ -128,58 +43,7 @@
         "price_change_inr": 0
       }
     ],
-    "gold_history": [
-      {
-        "date": "May 25, 2026",
-        "price_24k": 16124,
-        "price_22k": 14780
-      },
-      {
-        "date": "May 24, 2026",
-        "price_24k": 16069,
-        "price_22k": 14730
-      },
-      {
-        "date": "May 23, 2026",
-        "price_24k": 16069,
-        "price_22k": 14730
-      },
-      {
-        "date": "May 22, 2026",
-        "price_24k": 16124,
-        "price_22k": 14780
-      },
-      {
-        "date": "May 21, 2026",
-        "price_24k": 16167,
-        "price_22k": 14810
-      },
-      {
-        "date": "May 20, 2026",
-        "price_24k": 16091,
-        "price_22k": 14750
-      },
-      {
-        "date": "May 19, 2026",
-        "price_24k": 16222,
-        "price_22k": 14870
-      },
-      {
-        "date": "May 18, 2026",
-        "price_24k": 16091,
-        "price_22k": 14750
-      },
-      {
-        "date": "May 17, 2026",
-        "price_24k": 16091,
-        "price_22k": 14750
-      },
-      {
-        "date": "May 16, 2026",
-        "price_24k": 16091,
-        "price_22k": 14750
-      }
-    ],
+    "gold_history": [],
     "silver_history": [
       {
         "date": "May 25, 2026",
@@ -222,5 +86,8 @@
         "price_1kg": 290000
       }
     ]
-  }
+  },
+  "warnings": [
+    "Less than 3 gold tables found!"
+  ]
 }
