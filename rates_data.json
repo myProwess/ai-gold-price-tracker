@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-07-25T11:40:05Z",
+    "last_updated": "2026-07-26T07:08:17Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -46,6 +46,10 @@
     "gold_history": [],
     "silver_history": [
       {
+        "date": "Jul 26, 2026",
+        "price_1kg": 240000
+      },
+      {
         "date": "Jul 25, 2026",
         "price_1kg": 240000
       },
@@ -80,10 +84,6 @@
       {
         "date": "Jul 17, 2026",
         "price_1kg": 235000
-      },
-      {
-        "date": "Jul 16, 2026",
-        "price_1kg": 240000
       }
     ]
   },
