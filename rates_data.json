@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-08-21T10:54:51Z",
+    "last_updated": "2026-08-22T04:57:20Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -10,44 +10,48 @@
       {
         "metal": "Silver",
         "weight_unit": "1 Gram",
-        "price_today_inr": 265,
-        "price_yesterday_inr": 260,
-        "price_change_inr": 5
+        "price_today_inr": 270,
+        "price_yesterday_inr": 270,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "8 Gram",
-        "price_today_inr": 2120,
-        "price_yesterday_inr": 2080,
-        "price_change_inr": 40
+        "price_today_inr": 2160,
+        "price_yesterday_inr": 2160,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "10 Gram",
-        "price_today_inr": 2650,
-        "price_yesterday_inr": 2600,
-        "price_change_inr": 50
+        "price_today_inr": 2700,
+        "price_yesterday_inr": 2700,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "100 Gram",
-        "price_today_inr": 26500,
-        "price_yesterday_inr": 26000,
-        "price_change_inr": 500
+        "price_today_inr": 27000,
+        "price_yesterday_inr": 27000,
+        "price_change_inr": 0
       },
       {
         "metal": "Silver",
         "weight_unit": "1 Kg",
-        "price_today_inr": 265000,
-        "price_yesterday_inr": 260000,
-        "price_change_inr": 5000
+        "price_today_inr": 270000,
+        "price_yesterday_inr": 270000,
+        "price_change_inr": 0
       }
     ],
     "gold_history": [],
     "silver_history": [
       {
+        "date": "Aug 22, 2026",
+        "price_1kg": 270000
+      },
+      {
         "date": "Aug 21, 2026",
-        "price_1kg": 265000
+        "price_1kg": 270000
       },
       {
         "date": "Aug 20, 2026",
@@ -79,10 +83,6 @@
       },
       {
         "date": "Aug 13, 2026",
-        "price_1kg": 260000
-      },
-      {
-        "date": "Aug 12, 2026",
         "price_1kg": 260000
       }
     ]
