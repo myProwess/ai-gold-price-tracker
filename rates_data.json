@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-10-30T10:57:15Z",
+    "last_updated": "2026-10-31T10:29:40Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -10,41 +10,45 @@
       {
         "metal": "Silver",
         "weight_unit": "1 Gram",
-        "price_today_inr": 210,
-        "price_yesterday_inr": 215,
-        "price_change_inr": -5
+        "price_today_inr": 200,
+        "price_yesterday_inr": 210,
+        "price_change_inr": -10
       },
       {
         "metal": "Silver",
         "weight_unit": "8 Gram",
-        "price_today_inr": 1680,
-        "price_yesterday_inr": 1720,
-        "price_change_inr": -40
+        "price_today_inr": 1600,
+        "price_yesterday_inr": 1680,
+        "price_change_inr": -80
       },
       {
         "metal": "Silver",
         "weight_unit": "10 Gram",
-        "price_today_inr": 2100,
-        "price_yesterday_inr": 2150,
-        "price_change_inr": -50
+        "price_today_inr": 2000,
+        "price_yesterday_inr": 2100,
+        "price_change_inr": -100
       },
       {
         "metal": "Silver",
         "weight_unit": "100 Gram",
-        "price_today_inr": 21000,
-        "price_yesterday_inr": 21500,
-        "price_change_inr": -500
+        "price_today_inr": 20000,
+        "price_yesterday_inr": 21000,
+        "price_change_inr": -1000
       },
       {
         "metal": "Silver",
         "weight_unit": "1 Kg",
-        "price_today_inr": 210000,
-        "price_yesterday_inr": 215000,
-        "price_change_inr": -5000
+        "price_today_inr": 200000,
+        "price_yesterday_inr": 210000,
+        "price_change_inr": -10000
       }
     ],
     "gold_history": [],
     "silver_history": [
+      {
+        "date": "Oct 31, 2026",
+        "price_1kg": 200000
+      },
       {
         "date": "Oct 30, 2026",
         "price_1kg": 210000
@@ -80,10 +84,6 @@
       {
         "date": "Oct 22, 2026",
         "price_1kg": 225000
-      },
-      {
-        "date": "Oct 21, 2026",
-        "price_1kg": 230000
       }
     ]
   },
