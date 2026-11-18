@@ -1,7 +1,7 @@
 {
   "meta": {
     "location": "Trichy",
-    "last_updated": "2026-11-17T13:41:42Z",
+    "last_updated": "2026-11-18T13:16:01Z",
     "source": "goodreturns.in"
   },
   "datasource": {
@@ -10,41 +10,45 @@
       {
         "metal": "Silver",
         "weight_unit": "1 Gram",
-        "price_today_inr": 190,
+        "price_today_inr": 185,
         "price_yesterday_inr": 190,
-        "price_change_inr": 0
+        "price_change_inr": -5
       },
       {
         "metal": "Silver",
         "weight_unit": "8 Gram",
-        "price_today_inr": 1520,
+        "price_today_inr": 1480,
         "price_yesterday_inr": 1520,
-        "price_change_inr": 0
+        "price_change_inr": -40
       },
       {
         "metal": "Silver",
         "weight_unit": "10 Gram",
-        "price_today_inr": 1900,
+        "price_today_inr": 1850,
         "price_yesterday_inr": 1900,
-        "price_change_inr": 0
+        "price_change_inr": -50
       },
       {
         "metal": "Silver",
         "weight_unit": "100 Gram",
-        "price_today_inr": 19000,
+        "price_today_inr": 18500,
         "price_yesterday_inr": 19000,
-        "price_change_inr": 0
+        "price_change_inr": -500
       },
       {
         "metal": "Silver",
         "weight_unit": "1 Kg",
-        "price_today_inr": 190000,
+        "price_today_inr": 185000,
         "price_yesterday_inr": 190000,
-        "price_change_inr": 0
+        "price_change_inr": -5000
       }
     ],
     "gold_history": [],
     "silver_history": [
+      {
+        "date": "Nov 18, 2026",
+        "price_1kg": 185000
+      },
       {
         "date": "Nov 17, 2026",
         "price_1kg": 190000
@@ -79,10 +83,6 @@
       },
       {
         "date": "Nov 09, 2026",
-        "price_1kg": 205000
-      },
-      {
-        "date": "Nov 08, 2026",
         "price_1kg": 205000
       }
     ]
